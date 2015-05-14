@@ -48,10 +48,10 @@ GeoJSON.GeometryCollection = {
 }
 
 GeoJSON.Feature = {
-  id        : { type: "String" },
+  id        : { type: String },
   'type'    : { type: String, default: "Feature" },
   geometry  : GeoJSON.Geometry,
-  properties: {type: "Object"}
+  properties: { }
 }
 
 GeoJSON.FeatureCollection = {
@@ -60,13 +60,13 @@ GeoJSON.FeatureCollection = {
 }
 
 GeoJSON.requiredAddressFeature = {
-  id        : { type: "String" },
+  id        : { type: String },
   'type'    : { type: String, default: "Feature", required:true },
   geometry  : {
-    'type':{type:String,default:"Point",required:true},
-    coordinates:{type:"Array",required:true}
+    'type': { type:String, default:"Point", required:true },
+    coordinates:  {type:"Array", required:true }
   },
-  properties: {type: "Object"}
+  properties: { type: "Object" }
 }
 
 

@@ -19,37 +19,27 @@ GeoJSON.Geometry = {
 
 GeoJSON.Point = {
   'type'     : { type: String, default: "Point" },
-  coordinates: [
-    {type: "Number"}
-  ]
+  coordinates: []
 }
 
 GeoJSON.MultiPoint = {
   'type'     : { type: String, default: "MultiPoint" },
-  coordinates: [
-    {type: "Array"}
-  ]
+  coordinates: []
 }
 
 GeoJSON.MultiLineString = {
   'type'     : { type: String, default: "MultiLineString" },
-  coordinates: [
-    {type: "Array"}
-  ]
+  coordinates: []
 }
 
 GeoJSON.Polygon = {
   'type'     : { type: String, default: "Polygon" },
-  coordinates: [
-    {type: "Array"}
-  ]
+  coordinates: []
 }
 
 GeoJSON.MultiPolygon = {
   'type'     : { type: String, default: "MultiPolygon" },
-  coordinates: [
-    {type: "Array"}
-  ]
+  coordinates: []
 }
 
 GeoJSON.GeometryCollection = {
